@@ -1,0 +1,27 @@
+{
+  "Name": "string",
+  "Category": 0,
+  "Username": "string",
+  "BaseImage": "string",
+  "Description": "string",
+  "Environment": "string",
+  "SiteName": "string",
+  "IsValid": true,
+  "UserCalculationCode": "string",
+  "CalculationMethod": 0,
+  "SampleFrequency": "00:00:00",
+  "OutputData": [
+    {
+      "Unit": "string",
+      "MinValue": 0.0,
+      "MaxValue": 0.0,
+      "Name": "string",
+      "Description": "string",
+      "Type": 0,
+      "discriminator": "VirtualDataNumericTagMetadata"
+    }
+  ],
+  "name": "string",
+  "description": "string",
+  "username": "username"
+}
