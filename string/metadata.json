@@ -8,7 +8,7 @@
   "SiteName": "string",
   "IsValid": true,
   "UserCalculationCode": "string",
-  "CalculationMethod": 0,
+  "CalculationMethod": 1,
   "SampleFrequency": "00:00:00",
   "OutputData": [
     {
