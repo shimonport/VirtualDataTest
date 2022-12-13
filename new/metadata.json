@@ -1,0 +1,35 @@
+{
+  "name": "new",
+  "username": "shim",
+  "baseImage": "docker-registry:5000/sf_python_base_image:0.4.0",
+  "description": "emp",
+  "siteName": "בית ספר גינוגלי מ. מרום הגליל",
+  "environment": "Development",
+  "calculationMethod": "LINEAR_INTERPOLATE",
+  "sampleFrequency": "60s",
+  "inputData": [
+    {
+      "rawId": {
+        "tagType": "NUMERIC",
+        "tagIdentifier": {
+          "id": 263372
+        }
+      },
+      "tagName": "2620018_totalEnergy",
+      "sourceName": "Inverters Data",
+      "sourceId": 161,
+      "variableName": "energy"
+    }
+  ],
+  "outputData": [
+    {
+      "name": "energy measurements",
+      "description": "",
+      "numericTagMetadata": {
+        "unit": ""
+      },
+      "type": "TABLE"
+    }
+  ],
+  "category": "TABLES"
+}
