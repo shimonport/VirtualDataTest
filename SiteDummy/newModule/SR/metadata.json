@@ -1,0 +1,47 @@
+{
+  "name": "newModule",
+  "username": "shimon",
+  "baseImage": "docker-registry:5000/sf_python_base_image:0.4.0",
+  "description": "n",
+  "siteName": "בית ספר גינוגלי מ. מרום הגליל",
+  "environment": "Development",
+  "calculationMethod": 0,
+  "sampleFrequency": "300s",
+  "inputData": [
+    {
+      "rawId": {
+        "tagType": "NUMERIC",
+        "tagIdentifier": {
+          "id": 263372
+        }
+      },
+      "tagName": "Total Energy",
+      "sourceName": "Inverters Data",
+      "sourceId": 161,
+      "variableName": "total_energy"
+    }
+  ],
+  "outputData": [
+    {
+      "name": "daily_sr",
+      "description": "",
+      "numericTagMetadata": {
+        "minValue": 0,
+        "maxValue": 100,
+        "unit": "PERCENT"
+      },
+      "type": "NUMERIC_PER_OBJECT"
+    },
+    {
+      "name": "total_sr",
+      "description": "",
+      "numericTagMetadata": {
+        "minValue": 0,
+        "maxValue": 100,
+        "unit": "PERCENT"
+      },
+      "type": "NUMERIC_PER_OBJECT"
+    }
+  ],
+  "category": "TIMESERIES"
+}
