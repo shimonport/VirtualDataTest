@@ -1,8 +1,8 @@
 {
-  "name": "sr",
-  "username": "ss",
+  "name": "SR",
+  "username": "FDG",
   "baseImage": "docker-registry:5000/sf_python_base_image:0.4.0",
-  "description": "ss",
+  "description": "FDG",
   "siteName": "בית ספר גינוגלי מ. מרום הגליל",
   "environment": "Development",
   "calculationMethod": "LINEAR_INTERPOLATE",
