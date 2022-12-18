@@ -30,7 +30,7 @@
         "maxValue": 100,
         "unit": "PERCENT"
       },
-      "type": "NUMERIC_PER_OBJECT"
+      "type": 0
     },
     {
       "name": "total_sr",
@@ -40,7 +40,7 @@
         "maxValue": 100,
         "unit": "PERCENT"
       },
-      "type": "NUMERIC_PER_OBJECT"
+      "type": 0
     }
   ],
   "category": "TIMESERIES"
