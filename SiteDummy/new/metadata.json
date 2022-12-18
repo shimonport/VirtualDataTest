@@ -9,7 +9,7 @@
   "IsValid": true,
   "UserCalculationCode": "string",
   "CalculationMethod": 0,
-  "SampleFrequency": "00:00:00",
+  "SampleFrequency": "00:10:00",
   "OutputData": [
     {
       "Unit": "string",
