@@ -6,7 +6,7 @@
   "siteName": "בית ספר גינוגלי מ. מרום הגליל",
   "environment": "Development",
   "calculationMethod": 0,
-  "sampleFrequency": "300s",
+  "sampleFrequency": 1,
   "inputData": [
     {
       "rawId": {
