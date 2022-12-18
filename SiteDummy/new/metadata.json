@@ -1,47 +1,26 @@
 {
+  "Name": "new",
+  "Category": 0,
+  "Username": "string",
+  "BaseImage": "string",
+  "Description": "string",
+  "Environment": "string",
+  "SiteName": "SiteDummy",
+  "IsValid": true,
+  "UserCalculationCode": "string",
+  "CalculationMethod": 0,
+  "SampleFrequency": "00:00:00",
+  "OutputData": [
+    {
+      "Unit": "string",
+      "MinValue": 0.0,
+      "MaxValue": 0.0,
+      "Name": "string",
+      "Description": "string",
+      "Type": 0
+    }
+  ],
   "name": "new",
-  "username": "shimon",
-  "baseImage": "docker-registry:5000/sf_python_base_image:0.4.0",
-  "description": "none",
-  "siteName": "בית ספר גינוגלי מ. מרום הגליל",
-  "environment": "Development",
-  "calculationMethod": 0,
-  "sampleFrequency": "00:05:00",
-  "inputData": [
-    {
-      "rawId": {
-        "tagType": "NUMERIC",
-        "tagIdentifier": {
-          "id": 263372
-        }
-      },
-      "tagName": "Total Energy",
-      "sourceName": "Inverters Data",
-      "sourceId": 161,
-      "variableName": "total_energy"
-    }
-  ],
-  "outputData": [
-    {
-      "name": "daily_sr",
-      "description": "",
-      "numericTagMetadata": {
-        "minValue": 0,
-        "maxValue": 100,
-        "unit": "PERCENT"
-      },
-      "type": 0
-    },
-    {
-      "name": "total_sr",
-      "description": "",
-      "numericTagMetadata": {
-        "minValue": 0,
-        "maxValue": 100,
-        "unit": "PERCENT"
-      },
-      "type": 0
-    }
-  ],
-  "category": "TIMESERIES"
+  "description": "string",
+  "username": "string"
 }
